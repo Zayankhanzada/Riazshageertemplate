@@ -5,12 +5,13 @@ body {
     overflow-x: hidden;
 }
 
-.image-wrapper{
+.image-wrapper {
     width: auto;
     height: auto;
     max-width: 100%;
     object-fit: cover;
 }
+
 /* font sizes and weights */
 .fs-18 {
     font-size: 18px;
@@ -22,6 +23,10 @@ body {
 
 .fs-24 {
     font-size: 24px;
+}
+
+.fs-36 {
+    font-size: 36px;
 }
 
 .fs-46 {
@@ -37,9 +42,7 @@ body {
 .pt-50 {
     padding-top: 500px;
 }
-.pt-11{
-    padding-top: 110px;
-}
+
 
 /* backgrounds and colors */
 .text-grey {
@@ -215,7 +218,7 @@ footer .btn {
 }
 
 @media screen and (max-width: 1199.98px) {
-    h1{
+    h1 {
         font-size: 41px;
     }
 
@@ -233,7 +236,7 @@ footer .btn {
         flex: 1;
         max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-     }
+    }
 
     .automate-section .text-green::before {
         content: "";
@@ -241,7 +244,7 @@ footer .btn {
         flex: 1;
         max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-        }
+    }
 
     .article-section .text-green::before {
         content: "";
@@ -249,13 +252,14 @@ footer .btn {
         flex: 1;
         max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-        }
+    }
 }
 
 @media screen and (max-width:991.98px) {
-h1{
-    font-size: 36px;
-}
+    h1 {
+        font-size: 36px;
+    }
+
     .hero-section {
         background-image: none;
     }
@@ -274,11 +278,11 @@ h1{
 
     .product-section .text-green::after {
         content: "";
-    height: 2px;
-    flex: 1;
-    max-width: 100%;
-    background-color: rgba(5, 192, 181, 1);
-}
+        height: 2px;
+        flex: 1;
+        max-width: 100%;
+        background-color: rgba(5, 192, 181, 1);
+    }
 
     .automate-section .text-green::before {
         content: "";
@@ -286,7 +290,7 @@ h1{
         flex: 1;
         max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-     }
+    }
 
     .article-section .text-green::before {
         display: none;
@@ -294,11 +298,11 @@ h1{
 
     .article-section .text-green::after {
         content: "";
-    height: 2px;
-    flex: 1;
-    max-width: 100%;
-    background-color: rgba(5, 192, 181, 1);
-}
+        height: 2px;
+        flex: 1;
+        max-width: 100%;
+        background-color: rgba(5, 192, 181, 1);
+    }
 
 }
 
@@ -306,6 +310,10 @@ h1{
 
     .hero-section {
         background-image: none;
+    }
+
+    .fs-36 {
+        font-size: 28px;
     }
 
     .fs-20 {
@@ -334,7 +342,7 @@ h1{
         flex: 1;
         max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-     }
+    }
 
     .article-section .text-green::before {
         display: none;
@@ -362,9 +370,7 @@ h1{
         padding-top: 90px;
         padding-bottom: 90px;
     }
- .pt-11{
-    padding-top: 80px;
- }
+
 
     .fs-18 {
         font-size: 16px;
@@ -431,4 +437,3 @@ h1{
     }
 
 }
-
