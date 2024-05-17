@@ -54,9 +54,6 @@ body {
     color: rgba(5, 192, 181, 1);
 }
 
-.bg-dark {
-    background-color: rgba(38, 38, 38, 1);
-}
 
 /* Buttons */
 .btn {
@@ -194,9 +191,7 @@ nav a {
 }
 
 /* article section */
-.article-section {
-    background-color: ;
-}
+
 .article-section .text-green::before {
     content: "";
     height: 2px;
