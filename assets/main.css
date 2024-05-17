@@ -5,7 +5,12 @@ body {
     overflow-x: hidden;
 }
 
-
+.image-wrapper{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
 /* font sizes and weights */
 .fs-18 {
     font-size: 18px;
@@ -31,6 +36,9 @@ body {
 
 .pt-50 {
     padding-top: 500px;
+}
+.pt-11{
+    padding-top: 110px;
 }
 
 /* backgrounds and colors */
@@ -111,7 +119,7 @@ nav a {
 }
 
 .freelance-section .box {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 5px #0003;
     background-color: white;
 }
 
@@ -120,19 +128,14 @@ nav a {
 }
 
 /* product section */
+
 .product-section .text-green::before {
     content: "";
-    position: absolute;
-    top: 50%;
-    left: -100px;
-    width:auto;
-    max-width: 90px;
-    /* Adjust as needed */
     height: 2px;
-    /* Adjust as needed */
+    flex: 1;
+    max-width: 100px;
     background-color: rgba(5, 192, 181, 1);
-    /* Adjust color as needed */
-    transform: translateY(-50%);
+
 }
 
 .product-section .image-wrapper {
@@ -163,21 +166,14 @@ nav a {
 
 .automate-section .text-green::before {
     content: "";
-    position: absolute;
-    top: 50%;
-    right: 560px;
-    width: auto;
-    max-width: 120px;
-    /* Adjust as needed */
     height: 2px;
-    /* Adjust as needed */
+    flex: 1;
+    max-width: 100px;
     background-color: rgba(5, 192, 181, 1);
-    /* Adjust color as needed */
-    transform: translateY(-50%);
 }
 
 .automate-section .form-box {
-    top: -120px;
+    top: -95px;
     margin-bottom: -600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
@@ -198,16 +194,15 @@ nav a {
 }
 
 /* article section */
+.article-section {
+    background-color: ;
+}
 .article-section .text-green::before {
     content: "";
-    position: absolute;
-    top: 51%;
-    right: 170px;
-    width: auto;
-    max-width: 100px;
     height: 2px;
+    flex: 1;
+    max-width: 100px;
     background-color: rgba(5, 192, 181, 1);
-    transform: translateY(-50%);
 }
 
 /* Footer */
@@ -233,49 +228,33 @@ footer .btn {
         top: 75%;
     }
 
-    .p-lg-12 {
-        padding: 120px;
-    }
-
     .automate-section .form-box {
         top: -100px;
     }
 
     .product-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 50%;
-        left: -60px;
-        width: auto;
-        max-width: 50px;
         height: 2px;
+        flex: 1;
+        max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+     }
 
     .automate-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 45%;
-        left: 60%;
-        width: auto;
-        max-width:100px;
         height: 2px;
+        flex: 1;
+        max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+        }
 
-    .product-section .text-green::before {
+    .article-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 65%;
-        left: -60px;
-        width: auto;
-        max-width: 50px;
         height: 2px;
+        flex: 1;
+        max-width: 100px;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+        }
 }
 
 @media screen and (max-width:991.98px) {
@@ -300,27 +279,19 @@ h1{
 
     .product-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 50%;
-        right: 35px;
-        width: auto;
-        max-width: 400px;
-        height: 2px;
-        background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+    height: 2px;
+    flex: 1;
+    max-width: 100%;
+    background-color: rgba(5, 192, 181, 1);
+}
 
     .automate-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 12%;
-        left: 40%;
-        width: auto;
-        max-width: 300px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+     }
 
     .article-section .text-green::before {
         display: none;
@@ -328,15 +299,11 @@ h1{
 
     .article-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 37%;
-        left: 160px;
-        width: auto;
-        max-width: 400px;
-        height: 2px;
-        background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+    height: 2px;
+    flex: 1;
+    max-width: 100%;
+    background-color: rgba(5, 192, 181, 1);
+}
 
 }
 
@@ -360,27 +327,19 @@ h1{
 
     .product-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 50%;
-        right: 5px;
-        width: auto;
-        max-width: 100px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
     }
 
     .automate-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 10%;
-        left: 60%;
-        width: auto;
-        max-width: 150px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
-    }
+     }
 
     .article-section .text-green::before {
         display: none;
@@ -388,14 +347,10 @@ h1{
 
     .article-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 50%;
-        right: 5px;
-        width: auto;
-        max-width: 100px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
     }
 }
 
@@ -412,7 +367,9 @@ h1{
         padding-top: 90px;
         padding-bottom: 90px;
     }
-
+ .pt-11{
+    padding-top: 80px;
+ }
 
     .fs-18 {
         font-size: 16px;
@@ -452,26 +409,18 @@ h1{
 
     .product-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 50%;
-        right: 15px;
-        width: auto;
-        max-width: 150px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
     }
 
     .automate-section .text-green::before {
         content: "";
-        position: absolute;
-        top: 9%;
-        left: 90%;
-        width: auto;
-        max-width: 50px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
     }
 
     .article-section .text-green::before {
@@ -480,14 +429,10 @@ h1{
 
     .article-section .text-green::after {
         content: "";
-        position: absolute;
-        top: 32.4%;
-        left: 140px;
-        width: auto;
-        max-width: 180px;
         height: 2px;
+        flex: 1;
+        max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
-        transform: translateY(-50%);
     }
 
 }
