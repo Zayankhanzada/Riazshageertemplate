@@ -120,8 +120,7 @@ nav a {
 }
 
 .freelance-section .box {
-    box-shadow: 0 0 10px 5px #0003;
-
+    box-shadow:0px 12px 42px 0px rgba(0, 0, 0, 0.12156862745098039)
 }
 
 .freelance-section .fs-20 {
@@ -168,6 +167,12 @@ nav a {
     flex: 1;
     max-width: 100px;
     background-color: rgba(5, 192, 181, 1);
+}
+.automate-section .card{
+border-image: linear-gradient(rgba(130, 130, 130, 0), rgb(130, 130, 130), rgba(130, 130, 130, 0)) 1 100% / 1 / 0 stretch;
+border-style: solid;
+border-width: .75px;
+border-left-width: 0px;
 }
 
 /* form section */
@@ -296,6 +301,9 @@ footer .btn {
         max-width: 100%;
         background-color: rgba(5, 192, 181, 1);
     }
+    .automate-section .card{
+       border-width: 0px;
+}
 
     .article-section .text-green::before {
         display: none;
