@@ -36,16 +36,14 @@ var swiper = new Swiper('.firstswiper', {
     },
 
 });
-// form button js 
+// form section buttons
 document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.querySelectorAll('.btn');
     buttons.forEach(button => {
-      button.addEventListener('click', function() {
-        // Remove active class from all buttons
-        buttons.forEach(btn => btn.classList.remove('active'));
-        // Add active class only to the clicked button
-        this.classList.add('active');
-      });
+        button.addEventListener('click', function() {
+            this.classList.add('active');
+        });
     });
-  });
+});
+
   
