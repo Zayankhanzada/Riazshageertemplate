@@ -1,0 +1,55 @@
+.pt-16 {
+    padding-top: 160px;
+}
+
+.service-hero-section .card-background :nth-child(1){
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url(/assets/images/service-hero-img1.png) no-repeat center center / cover;
+
+}
+.service-hero-section .notch {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.service-hero-section .card-text {
+    bottom: 10%;
+}
+
+/* Buisness section */
+.buisness-section .container {
+    border-bottom: 2px solid #f2f2f2
+}
+
+.buisness-section .card {
+    background: linear-gradient(180deg,
+            rgba(23, 139, 35, 0.05) 0%,
+            rgba(13, 174, 78, 0.05) 25.52%,
+            rgba(87, 228, 143, 0.05) 51.04%,
+            rgba(66, 239, 177, 0.05) 73.44%,
+            rgba(64, 250, 205, 0.05) 97.92%)
+}
+
+/* Transform section */
+.transform-section .container {
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(249, 249, 249) 100%);
+}
+
+@media screen and (max-width:991.98px) {
+    .pt-16 {
+        padding-top: 150px;
+
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .h-md-40 {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .pt-16 {
+        padding-top: 100px;
+
+    }
+}

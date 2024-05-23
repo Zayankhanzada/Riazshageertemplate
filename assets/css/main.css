@@ -13,7 +13,9 @@ body {
 }
 
 /* font sizes and weights */
-
+.fs-12{
+    font-size: 12px;
+}
 .fs-18 {
     font-size: 18px;
 }
@@ -25,7 +27,9 @@ body {
 .fs-24 {
     font-size: 24px;
 }
-
+.fs-32{
+    font-size: 32px;
+}
 .fs-36 {
     font-size: 36px;
 }
@@ -52,6 +56,9 @@ body {
 
 
 /* backgrounds and colors */
+.text-success{
+    color: #2db67d;
+}
 .text-grey {
     color: rgba(102, 102, 102, 1);
 }
@@ -184,11 +191,11 @@ nav a {
     background: #2db67d;
 }
 
-.image-wrapper {
+ .product-section .image-wrapper {
     position: relative;
 }
 
-.image-wrapper::before {
+.product-section .image-wrapper::before {
     content: '';
     position: absolute;
     top: 0;
@@ -421,7 +428,9 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
-
+.fs-32{
+    font-size: 26px;
+}
     .fs-36 {
         font-size: 28px;
     }
