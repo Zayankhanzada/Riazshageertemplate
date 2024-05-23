@@ -13,9 +13,10 @@ body {
 }
 
 /* font sizes and weights */
-.fs-12{
+.fs-12 {
     font-size: 12px;
 }
+
 .fs-18 {
     font-size: 18px;
 }
@@ -27,9 +28,11 @@ body {
 .fs-24 {
     font-size: 24px;
 }
-.fs-32{
+
+.fs-32 {
     font-size: 32px;
 }
+
 .fs-36 {
     font-size: 36px;
 }
@@ -56,9 +59,10 @@ body {
 
 
 /* backgrounds and colors */
-.text-success{
+.text-success {
     color: #2db67d;
 }
+
 .text-grey {
     color: rgba(102, 102, 102, 1);
 }
@@ -191,7 +195,7 @@ nav a {
     background: #2db67d;
 }
 
- .product-section .image-wrapper {
+.product-section .image-wrapper {
     position: relative;
 }
 
@@ -214,7 +218,7 @@ nav a {
     max-width: 85%;
     transition: top 0.3s ease, background-color 0.3s ease;
     border-top-right-radius: 20px;
-}   
+}
 
 .product-section .card:hover .image-wrapper::before,
 .product-section .card-body:hover .image-wrapper::before {
@@ -362,6 +366,9 @@ footer .btn {
     h1 {
         font-size: 36px;
     }
+    h4{
+        font-size: 20px;
+    }
 
     .py-20 {
         padding-top: 160px;
@@ -371,7 +378,9 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
-
+.fs-32{
+    font-size: 25px;
+}
     .fs-46 {
         font-size: 36px;
     }
@@ -428,9 +437,11 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
-.fs-32{
-    font-size: 26px;
-}
+
+    .fs-32 {
+        font-size: 26px;
+    }
+
     .fs-36 {
         font-size: 28px;
     }
@@ -498,6 +509,10 @@ footer .btn {
 @media screen and (max-width:575.98px) {
     h1 {
         font-size: 28px;
+    }
+
+    .fs-32 {
+        font-size: 30px;
     }
 
     h4 {

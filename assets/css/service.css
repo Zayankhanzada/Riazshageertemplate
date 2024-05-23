@@ -1,21 +1,18 @@
+
 .pt-16 {
     padding-top: 160px;
-}
+} 
 
-.service-hero-section .card-background :nth-child(1){
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url(/assets/images/service-hero-img1.png) no-repeat center center / cover;
-
+.ratio-1x1-1{
+    padding-bottom:110% ;
 }
-.service-hero-section .notch {
+.service-hero-section .card .overly {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);}
+.service-hero-section .notch{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-.service-hero-section .card-text {
-    bottom: 10%;
-}
-
-/* Buisness section */
+    /* Buisness section */
 .buisness-section .container {
     border-bottom: 2px solid #f2f2f2
 }
@@ -45,6 +42,7 @@
     .h-md-40 {
         height: 40px;
     }
+    
 }
 
 @media screen and (max-width:575.98px) {
