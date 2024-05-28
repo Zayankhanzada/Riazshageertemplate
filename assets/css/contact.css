@@ -1,0 +1,36 @@
+.form-section{
+    background:url(/assets/images/contact-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+
+.form-section .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.form-section .form-box .btn {
+    color: rgba(51, 51, 51, 1);
+}
+
+.form-section .form-box .btn-outline-secondary.active {
+    border-color: rgba(45, 182, 125, 1);
+    color: rgba(45, 182, 125, 1);
+}
+
+.form-section input {
+    border-color: transparent;
+    border-bottom: 2px solid grey;
+    outline: none;
+}
+.form-section .text-green::after {
+    content: "";
+    height: 2px;
+    flex: 1;
+    max-width: 100%;
+    background-color: rgba(5, 192, 181, 1);
+}

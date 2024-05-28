@@ -37,10 +37,48 @@
             </a>
 
             <!-- Toggler/collapsible Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><img src="/assets/images/navicon.svg" alt=""></span>
             </button>
-            <!-- Navbar links -->
+
+            <!-- Offcanvas -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header px-3">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/favicon.svg" alt=""></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-4">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-18" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  fs-18" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/contact.html">Contact</a>
+                        </li>
+                        <div class="d-flex flex-lg-row flex-column justify-content-center column-gap-4">
+                            <a class="btn btn-success fw-semibold  fs-18 rounded-0 mt-4">BOOK A MEETING</a>
+                            <a class="btn btn-success fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-0 mt-4">
+                               <i class="fa-brands fa-upwork"></i><span class=" fs-18">START A CONTRACT</span>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navbar links for larger screens -->
             <div class="collapse navbar-collapse justify-content-end p-3 " id="navbarNav">
                 <ul class="navbar-nav align-items-center gap-3 ">
                     <li class="nav-item  ">
@@ -56,10 +94,10 @@
                         <a class="nav-link fs-18" href="/blog.html">Blog</a>
                     </li>
                     <li class="nav-item position-relative">
-                        <a class="nav-link fs-18" href="#">About</a>
+                        <a class="nav-link  fs-18" href="/about.html">About</a>
                     </li>
                     <li class="nav-item position-relative">
-                        <a class="nav-link fs-18" href="#">Contact</a>
+                        <a class="nav-link  fs-18" href="/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -549,16 +587,16 @@
                         <a class="footer-options" href="/products.html">
                             <span class="text-white pt-4 pt-lg-0">Products</span>
                         </a>
-                        <a class="footer-options" href="">
+                        <a class="footer-options" href="/stories.html">
                             <span class="text-white pt-4 pt-lg-0">Success Stories</span>
                         </a>
                         <a class="footer-options" href="/blog.html">
                             <span class="text-white pt-4 pt-lg-0">Blog</span>
                         </a>
-                        <a class="footer-options" href="">
+                        <a class="footer-options" href="/about.html">
                             <span class="text-white pt-4 pt-lg-0">About</span>
                         </a>
-                        <a class="footer-options" href="">
+                        <a class="footer-options" href="/contact.html">
                             <span class="text-white pt-4 pt-lg-0">Contact</span>
                         </a>
                     </div>

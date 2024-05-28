@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.svg">
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--font faimly-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!--Font-awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Contact | Riaz Shageer Site</title>
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="/assets/images/Frame 13.svg" alt="Logo">
+            </a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><img src="/assets/images/navicon.svg" alt=""></span>
+            </button>
+
+            <!-- Offcanvas -->
+            <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header px-3">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/favicon.svg" alt=""></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body p-4">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-18" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  fs-18" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-18" href="/contact.html">Contact</a>
+                        </li>
+                        <div class="d-flex flex-lg-row flex-column justify-content-center column-gap-4">
+                            <a class="btn btn-success fw-semibold  fs-18 rounded-0 mt-4">BOOK A MEETING</a>
+                            <a class="btn btn-success fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-0 mt-4">
+                               <i class="fa-brands fa-upwork"></i><span class=" fs-18">START A CONTRACT</span>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navbar links for larger screens -->
+            <div class="collapse navbar-collapse justify-content-end p-3 " id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-3 ">
+                    <li class="nav-item  ">
+                        <a class="nav-link position-relative fs-18" href="/">Home</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link  fs-18" href="/service.html">Services</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fs-18" href="/products.html">Products</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fs-18" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link  fs-18" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link active fs-18" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- contact section -->
+    <section class="contact-section pt-16 py-11">
+       <div class="container"> 
+        <div class="row  justify-content-between gap-5">
+          <div class="col-12 col-lg-3">
+            <p class="fs-16 text-grey fw-light mb-3">Send me a mail</p>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope text-green fs-18"></i>
+              <p class="fs-6">RiazShageer@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+           <div class="d-flex flex-column gap-3 ">
+
+            <h4 class="fs-6 text-grey fw-light"> Start a contract on Upwork</h4>
+            <a class="btn btn-success fw-semibold d-flex justify-content-center gap-2 align-items-center rounded-0 ">
+                <i class="fa-brands fa-upwork"></i><span class=" fs-18">START A CONTRACT</span>
+             </a>
+           </div>
+
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="d-flex flex-column gap-3">
+
+                <h4 class="fs-6 text-grey fw-light"> Let’s set up a call</h4>
+               <a href="" class="btn btn-success rounded-0 fw-semibold fs-18">BOOK A MEETING</a>
+               </div>
+          </div>
+        </div>
+    </div>
+    </section>
+<!-- Form section -->
+<section class="form-section  mt-20">
+    <div class="container    py-11">
+        <div class="row   justify-content-center gap-5">
+            <div class="col-12 col-lg-4">
+                <h2 class="text-white fs-46 text-wrap">Contact me for any query</h2>
+                    <h3 class=" d-flex  align-items-center gap-4 fst-italic text-green pt-5 fs-32">Or</h3>
+                    <h2 class="text-white fs-46 pt-5 ">I’d love to hear your brilliant story.</h2>
+            </div>
+            <div class="col-12 col-lg-7">
+                <div
+                        class="d-flex form-box flex-column bg-white justify-content-between align-items-center p-3 p-lg-5  position-relative">
+                        <div class="col-12 col-lg-9 ">
+                            <p class="fs-20 fw-semibold text-start pt-4">I'm intrested in..</p>
+                            <div class="d-flex justify-content-start align-items-end flex-wrap  gap-2 pt-3">
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">UI/UX Design</a>
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">Branding</a>
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">Website Development</a>
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">Business Adminstration</a>
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">Product Development</a>
+                                <a class="btn btn-outline-secondary border-3 bg-transparent rounded-0 fw-semibold"
+                                    onclick="toggleActive(this)">Nothing yet</a>
+                            </div>
+                            <form
+                                class=" d-flex flex-row flex-ld-column  justify-content-start align-items-center flex-wrap row-gap-5 pt-5">
+                                <input type="text" class="flex-grow-1 w-100 p-2 fs-18 " placeholder="enter your name"
+                                    id="" name="" required>
+                                <input type="email" class="flex-grow-1 w-100 p-2 fs-18 " value="adilaijaz@gmail.com"
+                                    id="" name="" required>
+                                <input type="text" class="flex-grow-1 w-100 p-2 fs-18"
+                                    placeholder="Type your message here" id="" name="" required>
+                            </form>
+                            <div class="d-flex justify-content-center align-items-center pt-5">
+                                <a href="" class=" btn btn-success text-white rounded-0">SEND MESSAGE</a>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-dark">
+    <div class="container py-5">
+        <div class="row flex-column flex-lg-row justify-content-between align-items-center row-gap-5">
+            <div class="col-12 col-lg-2">
+                <div class="d-flex justify-content-center align-items-center gap-2">
+                    <div class="footer-logo  ">
+                        <div class="image-wrapper">
+                            <img src="/assets/images/footer-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="d-flex flex-lg-row flex-column justify-content-end align-items-center pt-lg-0 gap-4">
+                    <a class="footer-options" href="/service.html">
+                        <span class="text-white pt-4 pt-lg-0">Services</span>
+                    </a>
+                    <a class="footer-options" href="/products.html">
+                        <span class="text-white pt-4 pt-lg-0">Products</span>
+                    </a>
+                    <a class="footer-options" href="/stories.html">
+                        <span class="text-white pt-4 pt-lg-0">Success Stories</span>
+                    </a>
+                    <a class="footer-options" href="/blog.html">
+                        <span class="text-white pt-4 pt-lg-0">Blog</span>
+                    </a>
+                    <a class="footer-options" href="/about.html">
+                        <span class="text-white pt-4 pt-lg-0">About</span>
+                    </a>
+                    <a class="footer-options" href="/contact.html">
+                        <span class="text-white pt-4 pt-lg-0">Contact</span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class=" py-5 ">
+            <div class="row flex-column flex-sm-row justify-content-between align-items-center row-gap-5">
+                <div class="col-12 col-lg-5">
+                    <h4 class=" text-lg-start text-center text-white fs-18">Connect With Me</h4>
+                    <div
+                        class="d-flex justify-content-lg-start flex-row justify-content-center align-items-center pt-3 gap-3 flex-wrap footer-option">
+                        <a href="" class=""><img src="/assets/images/email-grey.svg" alt=""></a>
+                        <a href="" class=""><img src="/assets/images/facebook-grey.svg" alt=""></a>
+                        <a href="" class=""><img src="/assets/images/linkedin-grey.svg" alt=""></a>
+                        <a href="#" class=""> <img src="/assets/images/upwork-grey.svg" alt=""></a>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="d-flex flex-column justify-content-center align-items-lg-end align-items-center">
+                        <h4 class="text-white">Suscribe To Newsletter</h4>
+                        <div
+                            class="d-flex flex-row flex-wrap justify-content-center align-item-center mt-3 column-gap-2 row-gap-3">
+                            <input type="email" name="email" placeholder="email@awesome.com"
+                                class="rounded-1  d-flex bg-transparent flex-grow-1 text-white">
+                            <button class="btn bg-transparent text-green  btn-outline-success "> SUBSCRIBE </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/main.js"></script>
+</body>
+</body>
+</html>

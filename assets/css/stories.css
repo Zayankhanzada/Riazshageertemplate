@@ -1,0 +1,138 @@
+ .stories-hero-section {
+     background: url(/assets/images/article-section-1.png);
+     background-position: center;
+     object-fit: cover;
+     background-size: cover;
+     padding: 12%;
+ }
+
+ .heading-wrapper {
+     padding: 10px 20px;
+     border-top-left-radius: 26px;
+     border-top-right-radius: 26px;
+     min-width: 400px;
+
+ }
+
+ .mt-20 {
+     margin-top: 200px;
+ }
+
+
+ /* technologies section */
+ .Technologies-section .box {
+     box-shadow: 0px 12px 42px 0px #0000001f;
+ }
+
+ /* problem section */
+ .problem-section .box {
+     border-left: 8px solid rgba(218, 63, 63, 1);
+ }
+
+ .h-600 {
+     height: 600px;
+ }
+
+ /* solution section */
+ .Solution-section .box {
+     border-left: 8px solid rgba(39, 191, 128, 1);
+ }
+
+ /* gallery-section */
+ .gallery {
+     display: grid;
+     grid-template-columns: repeat(6, 16.67%);
+     grid-auto-rows: 240px;
+     grid-auto-flow: dense;
+ }
+
+ .gallery .large-image-wrapper {
+     grid-row: span 2;
+     grid-column: span 2;
+ }
+
+ .gallery .wide-image-wrapper {
+     grid-column: span 2;
+ }
+
+ .gallery .tall-image-wrapper {
+     grid-row: span 2;
+ }
+.feedback-section{
+    background: url(/assets/images/feedack-section-background.png);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.feedback-section .box{
+    box-shadow: 0px 12px 42px 0px #0000001f;
+}
+.feedback-section .box-body{
+    border-right: 2px solid;
+    border-image: linear-gradient(rgba(130, 130, 130, 0), rgb(130, 130, 130), rgba(130, 130, 130, 0)) 1 100% / 1 / 0 stretch;
+}   
+.top-45{
+    top: 45%;
+}
+.start-25{
+    left: 25%;
+}
+.multi-color{
+    background: linear-gradient(90deg, #007604 52.24%, #1AAC6D 60.05%, #4BF1E3 66.52%, #84F9DC 72.58%, #CFF05F 78.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.hearing-section .container {
+    background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(249, 249, 249) 100%);
+}
+ @media screen and (max-width:991.98px) {
+     .stories-hero-section {
+         padding: 30%;
+     }
+
+     .heading-wrapper {
+         padding: 10px 15px;
+         min-width: 280px;
+
+     }
+
+     .mt-20 {
+         margin-top: 180px;
+     }
+
+     .h-600 {
+         height: 100%;
+     }
+ }
+
+
+ @media screen and (max-width:767.98px) {
+
+     .heading-wrapper {
+         padding: 11px 20px;
+         min-width: 240px;
+     }
+
+     .stories-hero-section .fs-36 {
+         font-size: 20px;
+     }
+
+     .problem-section .box {
+         border-top: 5px solid rgba(218, 63, 63, 1);
+         border-left: transparent;
+     }
+
+     .Solution-section .box {
+         border-top: 5px solid rgba(39, 191, 128, 1);
+         border-left: transparent;
+     }
+
+     .gallery {
+         grid-template-columns: repeat(1, 100%);
+     }
+ }
+
+ @media screen and (max-width:575.98px) {}

@@ -46,9 +46,11 @@ body {
     padding-top: 110px;
     padding-bottom: 110px;
 }
+
 .pt-16 {
     padding-top: 160px;
-} 
+}
+
 .py-20 {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -62,7 +64,7 @@ body {
 
 /* backgrounds and colors */
 .text-success {
-    color: #2db67d!important;
+    color: #2db67d !important;
 }
 
 .text-grey {
@@ -79,6 +81,14 @@ body {
 
 .bg-green {
     background-color: rgb(240 253 244);
+}
+
+.bg-lightgreen {
+    background-color: rgba(45, 182, 125, 0.05)
+}
+
+.text-yellow {
+    color: #ffc821;
 }
 
 /* Buttons */
@@ -120,10 +130,11 @@ nav a {
     text-decoration: none;
 
 }
-
 .nav-link.active::before {
     opacity: 1;
+
 }
+
 
 .nav-link::before {
     content: "";
@@ -368,7 +379,8 @@ footer .btn {
     h1 {
         font-size: 36px;
     }
-    h4{
+
+    h4 {
         font-size: 20px;
     }
 
@@ -380,9 +392,11 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
-.fs-32{
-    font-size: 25px;
-}
+
+    .fs-32 {
+        font-size: 25px;
+    }
+
     .fs-46 {
         font-size: 36px;
     }
@@ -439,7 +453,7 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
-
+    
     .fs-32 {
         font-size: 26px;
     }
