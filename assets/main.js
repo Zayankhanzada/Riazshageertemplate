@@ -37,13 +37,21 @@ var swiper = new Swiper('.firstswiper', {
 
 });
 // form section buttons
-document.addEventListener("DOMContentLoaded", function() {
-    const buttons = document.querySelectorAll('.btn');
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            this.classList.add('active');
+    function toggleActive(element) {
+        // Toggle the active class on the clicked button
+        element.classList.toggle('active');
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const buttons = document.querySelectorAll('.btn-outline-secondary');
+        // Ensure only the third button is active initially
+        buttons.forEach((btn, index) => {
+            if (index === 2) {  // Index 2 means the third button (0-based index)
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
         });
     });
-});
 
   

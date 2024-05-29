@@ -16,7 +16,9 @@
 .ratio-1x1 {
     padding-bottom: 100%;
 }
-
+.blog-hero-section .ratio-16x9{
+    padding-bottom:56.25%
+}
 .blog-hero-section .icons {
     width: 22px;
     height: auto;
@@ -50,7 +52,13 @@
     .updates-section .fs-46 {
         font-size: 24px;
     }
-    
+    .blog-hero-section h3{
+ font-size: 22px;
+    }
 }
 
-@media screen and (max-width:575.98px) {}
+@media screen and (max-width:575.98px) {
+    .blog-hero-section .fs-20{
+        font-size: 18px;
+           }
+}
