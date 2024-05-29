@@ -1,18 +1,21 @@
-
 .pt-16 {
     padding-top: 160px;
-} 
-
-.ratio-1x1-1{
-    padding-bottom:110% ;
 }
+
+.ratio-1x1-1 {
+    padding-bottom: 110%;
+}
+
 .service-hero-section .card .overly {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);}
-.service-hero-section .notch{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.service-hero-section .notch {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-    /* Buisness section */
+
+/* Buisness section */
 .buisness-section .container {
     border-bottom: 2px solid #f2f2f2
 }
@@ -42,7 +45,10 @@
     .h-md-40 {
         height: 40px;
     }
-    
+    .btn{
+        padding: 12px 17px!important;
+    }
+
 }
 
 @media screen and (max-width:575.98px) {
