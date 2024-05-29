@@ -262,10 +262,11 @@ nav a {
     overflow: hidden;
     height: auto;
 }
+
 .freelance-section .right-img {
     z-index: -1;
     right: -280px;
-opacity: .8;
+    opacity: .8;
 }
 
 
@@ -330,9 +331,11 @@ opacity: .8;
     max-width: 100px;
     background-color: rgba(5, 192, 181, 1);
 }
-.article-section .card{
+
+.article-section .card {
     cursor: pointer;
 }
+
 .article-section .card .image-wrapper {
     transition: all 0.25s ease-in;
 }
@@ -368,9 +371,11 @@ footer .btn {
     h1 {
         font-size: 41px;
     }
+
     .hero-section .product-tag {
         transform: translate(-80%, -50%);
-    }    
+    }
+
     .product-section .card-body {
         top: 75%;
     }
@@ -431,9 +436,11 @@ footer .btn {
     .hero-section {
         background-image: none;
     }
+
     .hero-section .product-tag {
         transform: translate(-5%, -50%);
     }
+
     .fs-32 {
         font-size: 25px;
     }
