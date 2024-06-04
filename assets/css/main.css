@@ -186,6 +186,11 @@ nav a {
 .freelance-section .fs-20 {
     font-size: 20px;
 }
+.freelance-section .right-img {
+    z-index: -1;
+    right: -280px;
+    opacity: .4;
+}
 
 /* product section */
 
@@ -263,11 +268,6 @@ nav a {
     height: auto;
 }
 
-.freelance-section .right-img {
-    z-index: -1;
-    right: -280px;
-    opacity: .8;
-}
 
 
 
